@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 70px 40px 100px;
+	/*padding-top: 50px;*/
+}
+
+.title {
+	color: #000000;
+	/*padding-right: 50px;*/
+
+}
+
+.add-btn {
+	/*margin-left: auto;*/
+	/*padding-left: 40px;*/
+
+}
+
+.project-list{
+	padding: 50px 50px 50px 50px;
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+
+}
+.project{
+	width: 250px;
+	padding: 20px;
+	background: #f4f4f4;
+	border-radius: 10px;
+	flex-direction: column;
+	display: flex;
+
+}
+
+.project h2 {
+	margin-top: 0;
+	font-size: 22px;
+	color: #333;
+}
+
+.project p {
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.project .project-btn {
+	width: 100%;
+	display: flex;
+	margin-top: auto;
+	gap: 20px;
+}
+
